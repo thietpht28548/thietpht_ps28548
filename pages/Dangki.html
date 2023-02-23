@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/index.html">
+    <title>Document</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+            width: 100%;
+            height: 70px;
+            background-color: rgb(12, 1, 1);
+            position: relative;
+            position: fixed;
+            z-index: 1;
+        }
+        .header img {
+            height: 70px;
+            width: 70px;
+        }
+        .thead {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+        }
+        .thead li {
+            display: inline-block;
+            list-style: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 16px 10px;
+            font-size: 10px;
+        }
+        .thead li a {
+            color: white;
+            text-decoration: none;
+        }
+        input {
+            position: absolute;
+            top: 50%;
+            translate: 0 -50%;
+            right: 5px;
+            width: 200px;
+            height: 28px;
+            border-radius: 4px;
+        }
+        .ti-search {
+            position: absolute;
+            right: 180px;
+            top: 17px;
+        }
+        .loghead li {
+            display: inline-block;
+            list-style: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 16px 10px;
+        }
+        li:hover {
+            background-color: rgb(240, 27, 148);
+        }
+        .bgr {
+            position: relative;
+            text-align: center;
+
+        }
+        .img-bgr {
+            padding-top: 40%;
+            background: linear-gradient(0, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./thiet-ke-shop-quan-ao-nu-nho-dep-1.jpg), no-repeat;
+            background-size: 100% auto;
+            opacity: 0.8;
+        }
+        .bgr .text-bgr {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+            word-spacing: 20px;
+            color: white;
+            text-shadow: 0 0 8px rgb(240, 27, 148);
+        }
+        .bgr h1 {
+            font-size: 58px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+        .noidungdk{
+            margin-top: 32%;
+            margin-left: 5%;
+            position: relative;
+            width:90%;
+            height: 500px;
+            padding: 100px;
+            background-color: rgb(234, 234, 99);
+        }
+        .noidungdk .lef{
+            width: 50%;
+        }
+        .tabledk{
+            position: absolute;
+            left: 52%;
+            top: 5%;
+            width: 45%;
+            height: 90%;
+            padding: 50px;
+            box-shadow: 0 0 5px gray;
+            border-radius: 10px;
+            font-size: 35px;
+        }
+        .tabledk .id{
+            width: 50%;
+            height: 15%;
+            font-size: 35px;
+        }
+        .tabledk .iddd{
+            font-size: 25px;
+           
+        }
+        .tabledk .idd{
+            font-size: 25px;
+            float: left;
+        }
+        .noidungdk h3{
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .noidungdk.p2{
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .mid2{
+            width: 100%;
+        }
+        footer{
+            float: left;
+            width: 100%;
+            background-color: pink;
+            min-height: 150px;
+        }
+        .row{
+            float: left;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .boxcenter2{
+            width: 50%;
+            margin: 0 auto;
+        }
+       
+        .boxfooter2{
+            width: 35%;
+            float: left;
+        }
+        .boxfooter3{
+            width: 60%;
+            float: left;
+        }
+        .textcenter{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mid2">
+    <div class="header">
+        <a href="http://127.0.0.1:5500/index.html"><img  src="./mau-logo-shop-quan-ao-online_111917310.png" alt="logo"></a> 
+        <div class="thead">
+            <ul>
+                <li>GIÀY CHÍNH HÃNG</li>
+                <li>QUẦN ÁO CHÍNH HÃNG</li>
+                <li>PHỤ KIỆN CHÍNH HÃNG</li>
+                <li>ĐỊA CHỈ CỤ THỂ</li>
+                <Li>PHÒNG TRƯNG BÀY</Li>
+            </ul>
+        </div>
+        <input type="text" placeholder="  Tìm kiếm">
+        <div class="ti-search"></div>
+    </div>
+    <div class="bgr">
+        <div class="img-bgr">
+        </div>
+        <div class="text-bgr">
+            <h1>BOONG</h1>
+            <p>Chuyên Sỉ Lẻ Quần Áo Giày Dép</p>
+        </div><br><br>
+    </div>
+
+    <div class="noidungdk">
+        <div class="lef">
+          <h3>đăng kí tài khoản </h3><hr>
+          <p2>để có thể theo dõi những thông tin chúng tôi cập nhật và có thể mua sản phầm của chúng tôi</p2>
+          
+        </div>
+        <div class="tabledk">
+          <div>tên tài khoản hoặc email:</div>
+          <input type="text2" class="id" value="username"><br>
+          <div>mật khẩu:</div>
+          <input type="password" class="id" value=""><br>
+
+          <input type="checkbox" > <label for="">lưu đăng nhập</label><br>
+          <input type="submit" class="idd" value="đăng nhập">
+          <input type="submit" class="idd" value="đăng kí">
+      </div>
+     </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="boxcenter2">
+                
+                <div class="boxfooter2">
+                    <h4>HƯỚNG DẪN</h4>
+                    <div class="add">Điều Khoản</div>
+                    <div class="add">Hướng Dẫn Mua Hàng</div>
+                    <div class="add">Chính Sách Đỏi Trả</div>
+                    <div class="add">Bảo Mật Thông Tin Khách Hàng</div>
+                    <div class="add">Chính Sách Thanh Toán</div>
+                </div>
+                <div class="boxfooter3">
+                    <h4>CONTACT US</h4>
+                    <div class="add">Store 1: 618 Quang Trung, Go Vap, Tp HCM</div>
+                    <div class="add">Store 2: 108 Quang Trung, Go Vap, Tp HCM</div>
+                    <div class="add">Store 3: 25 Quang Trung, Go Vap, Tp HCM</div>
+                </div>
+            </div>
+        </div>
+        <div class="row textcenter">
+            Boong Shop All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://uhchat.net/code.php?f=4ba602"></script>
+</body>
+</html>

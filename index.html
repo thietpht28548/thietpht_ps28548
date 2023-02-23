@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./pages/Dangki.html">
+    <link rel="stylesheet" href="./pages/diachi.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+            width: 100%;
+            height: 70px;
+            background-color: rgb(12, 1, 1);
+            position: relative;
+            position: fixed;
+            z-index: 1;
+        }
+        .header img {
+            height: 70px;
+            width: 70px;
+        }
+        .thead {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+        }
+        .thead li {
+            display: inline-block;
+            list-style: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 16px 10px;
+            font-size: 12px;
+        }
+        .thead li a {
+            color: white;
+            text-decoration: none;
+        }
+        input {
+            position: absolute;
+            top: 50%;
+            translate: 0 -50%;
+            right: 5px;
+            width: 200px;
+            height: 28px;
+            border-radius: 4px;
+        }
+        .ti-search {
+            position: absolute;
+            right: 180px;
+            top: 17px;
+        }
+        .loghead li {
+            display: inline-block;
+            list-style: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 16px 10px;
+        }
+        li:hover {
+            background-color: rgb(240, 27, 148);
+        }
+        .bgr {
+            position: relative;
+            text-align: center;
+
+        }
+        .img-bgr {
+            padding-top: 40%;
+            background: linear-gradient(0, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./pages/thiet-ke-shop-quan-ao-nu-nho-dep-1.jpg), no-repeat;
+            background-size: 100% auto;
+            opacity: 0.8;
+        }
+        .bgr .text-bgr {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+            word-spacing: 20px;
+            color: white;
+            text-shadow: 0 0 8px rgb(240, 27, 148);
+        }
+        .bgr h1 {
+            font-size: 58px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+        .mid{
+            width: 100%;
+            
+        }
+        .video-container{
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container>iframe{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .form-button {
+            padding: 8px 30px;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            background-color: rgb(240, 27, 148);
+            color: white;
+        }
+        .container {
+            width: 25%;
+            float: left;
+        }
+        .product {
+            border-radius: 8px;
+            box-shadow: 0 0 5px;
+            padding: 18px;
+            margin: 5px;
+            text-align: center;
+        }
+        img.anhgiay {
+            max-width: 100%;
+        }
+        .price {
+            font-weight: bold;
+            font-size: larger;
+        }
+        .noidungdk{
+            margin-top: 32%;
+            margin-left: 5%;
+            position: relative;
+            width:90%;
+            height: 500px;
+            padding: 100px;
+            background-color: beige;
+        }
+        .form-button1 {
+            padding: 20px 30px;
+            border: none;
+            border-radius: 2px;
+            font-weight: bold;
+            background-color: rgb(9, 1, 5);
+            color: white;
+            
+        }
+        .dangki1{
+            width: 80%;
+            height: 500px;
+            float: left; 
+        }
+        .full>h2{
+            font-size: 28px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        footer{
+            float: left;
+            width: 100%;
+            background-color: pink;
+            min-height: 150px;
+        }
+        .row{
+            float: left;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .boxcenter2{
+            width: 50%;
+            margin: 0 auto;
+        }
+       
+        .boxfooter2{
+            width: 35%;
+            float: left;
+        }
+        .boxfooter3{
+            width: 60%;
+            float: left;
+        }
+        .textcenter{
+            text-align: center;
+        }
+
+    </style> 
+</head>
+<body>
+    <div class="header">
+        <img src="./pages/mau-logo-shop-quan-ao-online_111917310.png" alt="logo">
+        <div class="thead">
+            <ul>
+                <li>GIÀY CHÍNH HÃNG</li>
+                <li>QUẦN ÁO CHÍNH HÃNG</li>
+                <li>PHỤ KIỆN CHÍNH HÃNG</li>
+                <li><a href="./pages/diachi.html">ĐỊA CHỈ CỤ THỂ</a></li>
+                <Li><a href="./pages/phongtrungbay.html">PHÒNG TRƯNG BÀY</a></Li>
+            </ul>
+        </div>
+        <input type="text" placeholder="  Tìm kiếm">
+        <div class="ti-search"></div>
+    </div>
+    <div class="bgr">
+        <div class="img-bgr">
+        </div>
+        <div class="text-bgr">
+            <h1>BOONG</h1>
+            <p>Chuyên Sỉ Lẻ Quần Áo Giày Dép</p>
+        </div><br><br>
+    </div>
+
+    <div class="full">
+        <h2 >Giới Thiệu Về Shop</h2>
+    </div><br> 
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_JgMCoppKHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div><br><br>
+
+    <div class="mid">
+        <button class="form-button" tabindex="">GIÀY CHÍNH HÃNG</button>
+        <br>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/giay1.jpg" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/giay2.jpg" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/giay3.jpg" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/giay4.jpg" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div><br><br><br><br>
+        </div>
+
+        <button class="form-button" tabindex="">QUẦN ÁO CHÍNH HÃNG</button>
+        <br>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/quanao1.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/quanao2.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/quanao3.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/quanao4.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div><br><br><br>
+        </div>
+
+        <button class="form-button" tabindex="">PHỤ KIỆN CHÍNH HÃNG</button>
+        <br>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/nhan.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/nón.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/tất.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <img class="anhgiay" src="./img/vòng.jfif" alt="">
+                <div class="price">
+                    <p1>20$</p1>
+                </div>
+            </div><br><br><br><br><br><br><br>
+        </div>
+    </div>
+    
+    <div class="mid2">
+        <img class="dangki1" src="./img/dangki1.jfif" alt="">
+        <button class="form-button1"><a href="./pages/Dangki.html">Đăng Kí Tài Khoản Khách Hàng</a></button>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="boxcenter2">
+                
+                <div class="boxfooter2">
+                    <h4>HƯỚNG DẪN</h4>
+                    <div class="add">Điều Khoản</div>
+                    <div class="add">Hướng Dẫn Mua Hàng</div>
+                    <div class="add">Chính Sách Đỏi Trả</div>
+                    <div class="add">Bảo Mật Thông Tin Khách Hàng</div>
+                    <div class="add">Chính Sách Thanh Toán</div>
+                </div>
+                <div class="boxfooter3">
+                    <h4>CONTACT US</h4>
+                    <div class="add">Store 1: 618 Quang Trung, Go Vap, Tp HCM</div>
+                    <div class="add">Store 2: 108 Quang Trung, Go Vap, Tp HCM</div>
+                    <div class="add">Store 3: 25 Quang Trung, Go Vap, Tp HCM</div>
+                </div>
+            </div>
+        </div>
+        <div class="row textcenter">
+            Boong Shop All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://uhchat.net/code.php?f=4ba602"></script>
+</body>
+</html>
